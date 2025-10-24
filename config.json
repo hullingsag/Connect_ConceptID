@@ -1,36 +1,36 @@
 {
   "PRIMARY": [
     {
-      "id": "conceptId",
+      "id": "129084651",
       "label": "Concept ID",
-      "required": true,
-      "type": "concept"
+      "type": "concept",
+      "required": true
     },
     {
-      "id": "key",
+      "id": "Survey",
       "label": "Key",
-      "required": true,
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   ],
   "SECONDARY": [
     {
       "id": "conceptId",
       "label": "Concept ID",
-      "required": true,
-      "type": "concept"
+      "type": "concept",
+      "required": true
     },
     {
       "id": "key",
       "label": "Key",
-      "required": true,
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     {
       "id": "primaryConceptId",
       "label": "Primary Concept ID",
-      "required": true,
       "type": "reference",
+      "required": true,
       "referencesType": "PRIMARY"
     }
   ],
@@ -38,48 +38,48 @@
     {
       "id": "conceptId",
       "label": "Concept ID",
-      "required": true,
-      "type": "concept"
+      "type": "concept",
+      "required": true
     },
     {
       "id": "key",
       "label": "Key",
-      "required": true,
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   ],
   "QUESTION": [
     {
       "id": "conceptId",
       "label": "Concept ID",
-      "required": true,
-      "type": "concept"
+      "type": "concept",
+      "required": true
     },
     {
       "id": "key",
       "label": "Key",
-      "required": true,
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     {
       "id": "secondaryConceptId",
       "label": "Secondary Concept ID",
-      "required": true,
       "type": "reference",
+      "required": true,
       "referencesType": "SECONDARY"
     },
     {
       "id": "sourceConceptId",
       "label": "Source Concept ID",
-      "required": false,
       "type": "reference",
+      "required": false,
       "referencesType": "SOURCE"
     },
     {
       "id": "responses",
       "label": "Responses",
-      "required": false,
       "type": "reference",
+      "required": false,
       "referencesType": "RESPONSE"
     }
   ],
@@ -87,14 +87,14 @@
     {
       "id": "conceptId",
       "label": "Concept ID",
-      "required": true,
-      "type": "concept"
+      "type": "concept",
+      "required": true
     },
     {
       "id": "key",
       "label": "Key",
-      "required": true,
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   ]
 }

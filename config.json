@@ -85,13 +85,13 @@
   ],
   "RESPONSE": [
     {
-      "id": "conceptId",
+      "id": "972455046",
       "label": "Concept ID",
       "type": "concept",
       "required": true
     },
     {
-      "id": "key",
+      "id": "0=Not Started",
       "label": "Key",
       "type": "text",
       "required": true

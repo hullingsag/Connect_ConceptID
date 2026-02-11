@@ -1,12 +1,25 @@
 {
   "_metadata": {
-    "last_updated": "2026-02-11T16:19:36.338Z",
-    "total_files": 0,
+    "last_updated": "2026-02-11T16:27:10.462Z",
+    "total_files": 1,
     "version": "2.0"
   },
-  "_files": {},
+  "_files": {
+    "129084651.json": {
+      "key": "Survey",
+      "object_type": "PRIMARY"
+    }
+  },
   "_search": {
-    "by_key": {},
-    "by_type": {}
+    "by_key": {
+      "Survey": [
+        "129084651.json"
+      ]
+    },
+    "by_type": {
+      "PRIMARY": [
+        "129084651.json"
+      ]
+    }
   }
 }

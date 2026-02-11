@@ -1,25 +1,12 @@
 {
   "_metadata": {
-    "last_updated": "2026-02-11T16:49:12.608Z",
-    "total_files": 1,
+    "last_updated": "2026-02-11T16:49:14.751Z",
+    "total_files": 0,
     "version": "2.0"
   },
-  "_files": {
-    "231311385.json": {
-      "key": "2=Submitted",
-      "object_type": "RESPONSE"
-    }
-  },
+  "_files": {},
   "_search": {
-    "by_key": {
-      "2=Submitted": [
-        "231311385.json"
-      ]
-    },
-    "by_type": {
-      "RESPONSE": [
-        "231311385.json"
-      ]
-    }
+    "by_key": {},
+    "by_type": {}
   }
 }

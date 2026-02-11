@@ -1,14 +1,14 @@
 {
   "PRIMARY": [
     {
-      "id": "129084651",
-      "label": "Concept ID",
+      "id": "conceptID",
+      "label": "Primary_ConceptID",
       "type": "concept",
       "required": true
     },
     {
-      "id": "Survey",
-      "label": "Survey",
+      "id": "key",
+      "label": "Primary_KEY",
       "type": "text",
       "required": true
     }
@@ -16,19 +16,19 @@
   "SECONDARY": [
     {
       "id": "conceptId",
-      "label": "Concept ID",
+      "label": "Secondary_ConceptID",
       "type": "concept",
       "required": true
     },
     {
       "id": "key",
-      "label": "Key",
+      "label": "Secondary_KEY",
       "type": "text",
       "required": true
     },
     {
       "id": "primaryConceptId",
-      "label": "Primary Concept ID",
+      "label": "Primary_Reference",
       "type": "reference",
       "required": true,
       "referencesType": "PRIMARY"
@@ -37,13 +37,13 @@
   "SOURCE": [
     {
       "id": "conceptId",
-      "label": "Concept ID",
+      "label": "Source_ConceptID",
       "type": "concept",
       "required": true
     },
     {
       "id": "key",
-      "label": "Key",
+      "label": "Source_KEY",
       "type": "text",
       "required": true
     }
@@ -51,26 +51,26 @@
   "QUESTION": [
     {
       "id": "conceptId",
-      "label": "Concept ID",
+      "label": "Question_ConceptID",
       "type": "concept",
       "required": true
     },
     {
       "id": "key",
-      "label": "Key",
+      "label": "Question_KEY",
       "type": "text",
       "required": true
     },
     {
       "id": "secondaryConceptId",
-      "label": "Secondary Concept ID",
+      "label": "Secondary_Reference",
       "type": "reference",
       "required": true,
       "referencesType": "SECONDARY"
     },
     {
       "id": "sourceConceptId",
-      "label": "Source Concept ID",
+      "label": "Secondary_ConceptID",
       "type": "reference",
       "required": false,
       "referencesType": "SOURCE"
@@ -85,14 +85,14 @@
   ],
   "RESPONSE": [
     {
-      "id": "972455046",
-      "label": "Concept ID",
+      "id": "conceptID",
+      "label": "Response_ConceptID",
       "type": "concept",
       "required": true
     },
     {
-      "id": "0=Not Started",
-      "label": "Key",
+      "id": "key",
+      "label": "Response_Key",
       "type": "text",
       "required": true
     }
